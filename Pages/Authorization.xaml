@@ -1,0 +1,49 @@
+﻿<Page x:Class="DNS1.Pages.Authorization"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DNS1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Authorization">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="\Assets\fon2.jpg"/>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="АВТОРИЗАЦИЯ" Style="{StaticResource BlockTxtOne}"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource BlockCommon}" Text="Логин:" Width="58" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="15"></TextBlock>
+                
+                <TextBox Name="TBoxLogin" Style="{StaticResource TextLogin}" Width="300"></TextBox>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Пароль:" Style="{StaticResource BlockCommon}" Width="58" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="15"></TextBlock>
+
+                <PasswordBox Name="PBoxPassword" Style="{StaticResource TextPassword}" Margin="0,8,0,0" Width="300"></PasswordBox>
+            </StackPanel>
+
+            <Button Name="BtnLogin" Click="BtnLogin_Click" Content="Войти" Style="{StaticResource ButtonOne}" Margin="65,8,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="6"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button Name="BtnReg" Click="BtnReg_Click" Content="Регистрация" Style="{StaticResource ButtonOne}" Margin="65,8,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="6"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

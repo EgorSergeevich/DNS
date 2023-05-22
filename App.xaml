@@ -1,0 +1,127 @@
+﻿<Application x:Class="DNS1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DNS1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <Style TargetType="Button" x:Key="ButtonOne">
+            <Setter Property="Background" Value="Orange"></Setter>
+            <Setter Property="Width" Value="200px"></Setter>
+            <Setter Property="Height" Value="30px"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom" ></Setter>
+            <Setter Property="Foreground" Value="Black" ></Setter>
+            <Setter Property="Margin" Value="0, 0, 8, 0"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="ButtonTwo">
+            <Setter Property="Background" Value="Orange"></Setter>
+            <Setter Property="Width" Value="170px"></Setter>
+            <Setter Property="Height" Value="30px"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center" ></Setter>
+            <Setter Property="Foreground" Value="Black" ></Setter>
+            <Setter Property="Margin" Value="8, 0, 8, 0"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        
+        <!--<Style TargetType="Border" x:Key="ColorAccent">
+            <Setter Property="Background" Value="Black"></Setter>
+        </Style>-->
+        
+        <Style TargetType="TextBlock" x:Key="BlockCommon">
+            <Setter Property="Margin" Value="8, 0, 0, 0"></Setter>
+        </Style>
+        
+        <Style TargetType="PasswordBox" x:Key="TextPassword">
+            <Setter Property="Width" Value="200px"></Setter>
+            <Setter Property="Height" Value="30px"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="21"></Setter>
+        </Style>
+        
+        <Style TargetType="TextBox" x:Key="TextLogin">
+            <Setter Property="Width" Value="200px"></Setter>
+            <Setter Property="Height" Value="30px"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="21"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+
+
+        <Style TargetType="TextBlock" x:Key="BlockTxtOne">
+            <Setter Property="HorizontalAlignment"  Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="50px"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        
+        <Style TargetType="TextBlock" x:Key="BlockTxtTwo">
+            <Setter Property="HorizontalAlignment"  Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="33px"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="ButtStyle">
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Background" Value="Brown"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="Black" ></Setter>
+        </Style>
+        
+        <Style TargetType="Grid" x:Key="ColorSecondary">
+            <Setter Property="Background" Value="#C76400"></Setter>
+        </Style>
+
+        <Style TargetType="Button" x:Key="BtnSave">
+            <Setter Property="Background" Value="Orange"></Setter>
+            <Setter Property="Foreground" Value="Black" ></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        <!--C76400-->
+        <Style TargetType="TextBlock" x:Key="BlockTxt">
+            <Setter Property="Margin" Value="0, 0, 0, 0"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        
+        <Style TargetType="TextBox" x:Key="BoxTxt">
+            <Setter Property="Margin" Value="4, 6, 20, 6"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Height" Value="25"></Setter>
+        </Style>
+
+        <Style TargetType="Border" x:Key="ColorAccent">
+            <Setter Property="BorderBrush" Value="#ff9c1a"></Setter>
+        </Style>
+
+        <Style TargetType="Button" x:Key="Glavnaya">
+            <Setter Property="FontSize" Value="24"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Background" Value="Orange"></Setter>
+            <Setter Property="Foreground" Value="black"></Setter>
+        </Style>
+
+
+
+        <!--<Style TargetType="Button" x:Key="Film">
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Background" Value="#7fc7ff"></Setter>
+            <Setter Property="Foreground" Value="black"></Setter>
+        </Style>
+
+        <Style TargetType="ListView" x:Key="Film3">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Background" Value="#FF262626"/>
+            <Setter Property="Foreground" Value="black"></Setter>
+        </Style>-->
+
+        <SolidColorBrush x:Key="ColorAccent1" Color="AliceBlue"></SolidColorBrush>
+    </Application.Resources>
+</Application>
